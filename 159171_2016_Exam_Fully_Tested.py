@@ -168,7 +168,7 @@
 #         with open(commonMistakes,'r') as f:
 #             for line in f:
 #                 if word == line.strip().split(',')[0]:
-#                     return line.strip().split(',')[1]
+#                     return line.strip().split(',')[1].split()
 #     return word
 # for testing:
 # with open('mistakes.txt','w') as f:
